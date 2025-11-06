@@ -33,7 +33,7 @@ A clean, interactive **Excel dashboard** analyzing hotel **bookings**, **cancell
 - **Clustered bars**: **Guest Type** vs **Cancelled/Total** (Couple, Family, Single)  
 - **Monthly trend** of bookings vs cancellations  
 - **Room status** distribution  
-- **Slicer** for **Year** (2015–2017) to filter all visuals
+- **Slicer** for **Year** (2015–2017) to filter all visuals  
 
 ---
 
@@ -48,20 +48,77 @@ A clean, interactive **Excel dashboard** analyzing hotel **bookings**, **cancell
 | Date Parts     | Month, Year (used for seasonality)                      |
 | Room Status    | Occupied vs Unoccupied                                  |
 
-> Replace/extend with your actual column names if you publish raw data.
-
 ---
 
 ## 📊 Dashboard Highlights
 
-- **Fast filtering** with a Year slicer (2015/2016/2017)
-- **At-a-glance KPIs** with big, legible cards
-- **Comparative bars** to spot where cancellations are concentrated
-- **Seasonality chart** to plan staffing & pricing
+### ✅ Preview  
+> *(Dashboard Image Preview)*  
 
-### Preview
+![Dashboard](https://github.com/Ozarakesh533/Hotel-Booking-and-Cancellation-Data-Analysis-using-Excel/issues/1#issue-3596252098)
 
-> Add your image here:
+---
 
-```md
-![Dashboard Preview](assets/dashboard.png)
+## 🔍 Key Insights
+
+- **City Hotels** drive a larger share of bookings than Resort Hotels.  
+- **Couples** contribute the highest booking volume.  
+- **~37% cancellation rate** suggests strong need to optimize policies & communication.  
+- **May–July** show peak seasonal activity.  
+- **Unoccupied rooms** indicate upsell/marketing opportunities.  
+
+---
+
+## 🛠 Tech Stack
+
+- **Microsoft Excel** (Power Query, Pivot Tables/Charts, Slicers)
+- Optional: **Power BI** / **Python** for future extensions
+
+---
+
+## ▶ How to Use
+
+1. **Download** the repository.
+2. Open `Dashboard.xlsx`.
+3. Use the **Year slicer** to filter visuals.
+4. Hover over visuals to explore booking & cancellation details.  
+5. Replace `cleaned_data.xlsx` with your dataset if needed, then **Refresh All**.
+
+---
+
+## 🗂 Project Structure
+
+hotel-booking-analytics/
+├─ Dashboard.xlsx # Final interactive dashboard
+├─ cleaned_data.xlsx # Model-ready table(s)
+├─ raw_data.csv # Optional: Raw dataset
+├─ assets/
+│ └─ dashboard.png # Screenshots
+└─ README.md
+
+
+---
+
+## 🧭 Future Roadmap
+
+- [ ] Power BI interactive dashboard  
+- [ ] ML-based cancellation prediction  
+- [ ] Customer segmentation (RFM / clustering)  
+- [ ] Revenue impact simulation  
+- [ ] What-if policy impact model  
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo  
+2. Create a branch: `git checkout -b feature/my-update`  
+3. Commit changes  
+4. Push & open a PR  
+
+---
+## 📬 Contact
+
+**Author:** Rakesh Oza  
+🔗 GitHub: https://github.com/Ozarakesh533  
+🔗 LinkedIn: https://www.linkedin.com/in/rakeshoza
